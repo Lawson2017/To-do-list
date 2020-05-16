@@ -4,4 +4,20 @@ input {
 
 li {
 	list-style-type: none;
+	display: inline-block;
+}
+
+.col-6 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.333333%;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    display: inline;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    margin-right: 20px;
 }

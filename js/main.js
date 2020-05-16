@@ -9,6 +9,7 @@ var toDo = new Vue({
 			var task = this.newTask;
 			this.todoList.push(task);
 			this.newTask = '';
+			console.log('task added');
 		},
 		removeTask: function(task) {
 			var index = this.todoList.indexOf(task);
